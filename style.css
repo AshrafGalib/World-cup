@@ -1,60 +1,8 @@
 @media screen and (max-width: 688px) {
     .banner {
-        display: block;
-        background-color: rgb(87, 98, 136);
-        border-radius: 20px;
-        align-items: center;
-        justify-content: center;
-        width: 139%;
-        height: 150%;
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-left: 50px;
+        width: 100%;
+        height: 800px;
     }
-
-    /* .neymar {
-        width: 307px;
-        height: 463px;
-        margin-left: -64px;
-    } */
-
-
-
-    /* .menu-button {
-        margin-left: 0px;
-        padding: 25.5%;
-        border-style: none;
-        height: 151px;
-        margin-top: 5%;
-        background-color: rgb(87, 98, 136);
-        border-radius: 5%;
-        justify-items: center;
-        align-items: center;
-    } */
-
-    /* .button-1 {
-        height: 68px;
-        width: 267px;
-        font-family: 'Poppins';
-        border-radius: 5px;
-        border-color: dimgray;
-        font-size: 16px;
-        margin-block: 8px;
-        margin-left: 4px;
-        margin-top: -25px;
-    } */
-
-    /* .button-2 {
-        height: 68px;
-        width: 267px;
-        font-family: 'Poppins';
-        border-radius: 5px;
-        border-color: dimgray;
-        font-size: 16px;
-        margin-block: 8px;
-        display: block;
-        margin-left: 4px;
-    } */
 
 
 }
