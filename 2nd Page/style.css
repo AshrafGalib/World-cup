@@ -39,6 +39,11 @@
     width: 150px;
     font-family: 'Poppins';
     font-size: 16px;
+    transition: transform 1s ease-in-out;
+}
+
+.watch-live:hover {
+    transform: translateX(40px);
 }
 
 .neymar {
