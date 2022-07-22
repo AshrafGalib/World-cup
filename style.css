@@ -218,11 +218,11 @@ nav ul li a {
     }
 
     .menu-button {
-        margin-left: 5px;
-        width: 375px;
+        margin-left: 10px;
+        width: 360px;
         height: 200px;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
 
     }
 
@@ -235,7 +235,7 @@ nav ul li a {
         border-color: dimgray;
         font-size: 16px;
         margin-block: 8px;
-        margin-left: 36px;
+        margin-left: 30px;
 
     }
 
@@ -248,7 +248,7 @@ nav ul li a {
         border-color: dimgray;
         font-size: 16px;
         margin-block: 8px;
-        margin-left: 36px;
+        margin-left: 30px;
 
     }
 
@@ -260,7 +260,7 @@ nav ul li a {
         border-color: dimgray;
         font-size: 16px;
         margin-block: 8px;
-        margin-left: 36px;
+        margin-left: 30px;
         color: rgb(245, 241, 241);
         background-color: rgb(179, 54, 54);
     }
@@ -275,21 +275,21 @@ nav ul li a {
     .Blog-content {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 5px;
-        column-gap: 100px;
-        /* width: 50px; */
+        gap: 20px;
+        width: 355px;
+        margin-left: 20px;
+
+
     }
 
     .Contents {
-        box-shadow: 5px;
+        box-shadow: 10px;
         border-radius: 12px;
         background-color: #dadee2;
-        padding: 40px
+        padding: 20px
     }
 
-    .thumbnail {
-        height: 200px;
-    }
+
 
     footer {
         display: none;
