@@ -218,8 +218,9 @@ nav ul li a {
     }
 
     .menu-button {
-        margin-left: 10px;
-        width: 360px;
+        border-radius: 10px;
+        margin-left: 0px;
+        width: 370px;
         height: 200px;
         /* justify-content: center;
         align-items: center; */
@@ -276,8 +277,8 @@ nav ul li a {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
-        width: 355px;
-        margin-left: 20px;
+        width: 385px;
+        margin-left: 0px;
 
 
     }
@@ -286,14 +287,34 @@ nav ul li a {
         box-shadow: 10px;
         border-radius: 12px;
         background-color: #dadee2;
-        padding: 20px
+        padding: 40px
     }
 
 
 
     footer {
-        display: none;
+        background-color: rgb(87, 98, 136);
+        padding: 5rem;
+        text-align: center;
+        /* justify-content: center; */
+        font-family: 'Poppins';
+        margin-left: 0px;
+        width: 238px;
+        margin-top: 5%;
 
     }
 
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        text-align: justify;
+    }
+
+    /* .Social-links ul li {
+       
+    } */
 }
