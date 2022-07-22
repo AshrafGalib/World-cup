@@ -187,3 +187,262 @@ nav ul li a {
     gap: 1rem;
 
 }
+
+.button-for-tablet {
+    display: none;
+}
+
+/* ----------------Media Query------------------------------------ */
+/* ---------------Mobile Devices------------------------------------ */
+
+
+
+
+@media only screen and (max-width: 688px) {
+    .banner {
+        background-color: rgb(87, 98, 136);
+        width: 100%;
+        display: block;
+
+
+        margin-left: 0px;
+        height: 966.5px;
+
+    }
+
+    .neymar {
+        width: 100%;
+
+        margin-left: 5px;
+    }
+
+    .heading {
+        font-family: 'Poppins';
+        font-size: 42px;
+        line-height: 73PX;
+
+        margin-left: 10px;
+    }
+
+    .heading-details {
+        margin-left: 10px;
+    }
+
+    .watch-live {
+        margin-left: 120px;
+    }
+
+    .menu-button {
+        border-radius: 10px;
+        margin-left: 0px;
+        width: 370px;
+        height: 200px;
+
+
+    }
+
+    .button-1 {
+        height: 50px;
+        width: 300px;
+        font-family: 'Poppins';
+
+        border-radius: 5px;
+        border-color: dimgray;
+        font-size: 16px;
+        margin-block: 8px;
+        margin-left: 30px;
+
+    }
+
+    .button-2 {
+        height: 50px;
+        width: 300px;
+        font-family: 'Poppins';
+
+        border-radius: 5px;
+        border-color: dimgray;
+        font-size: 16px;
+        margin-block: 8px;
+        margin-left: 30px;
+
+    }
+
+    .button-3 {
+        height: 50px;
+        width: 300px;
+        font-family: 'Poppins';
+        border-radius: 5px;
+        border-color: dimgray;
+        font-size: 16px;
+        margin-block: 8px;
+        margin-left: 30px;
+        color: rgb(245, 241, 241);
+        background-color: rgb(179, 54, 54);
+    }
+
+    .Menu {
+        display: block;
+
+
+    }
+
+
+
+    .Games {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Game-Fixture {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0px;
+        padding: 50px;
+    }
+
+    footer {
+        background-color: rgb(87, 98, 136);
+        padding: 5rem;
+        text-align: center;
+
+        font-family: 'Poppins';
+        margin-left: 0px;
+        width: 238px;
+        margin-top: 5%;
+
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        text-align: justify;
+    }
+
+}
+
+/* ----------------Media Query------------------------------------ */
+/* --------------Tablet Devices------------------------------------ */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    .banner {
+        background-color: rgb(87, 98, 136);
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+
+    .neymar {
+        margin-left: 50px;
+        width: 100%;
+    }
+
+    .heading {
+        font-family: 'Poppins';
+        font-size: 30px;
+        line-height: 50PX;
+
+        margin-left: 10px;
+    }
+
+    .heading-details {
+        margin-left: 10px;
+        font-size: 20px;
+        padding: 2px;
+    }
+
+    .watch-live {
+        margin-left: 10px;
+    }
+
+
+    .Games {
+        display: block;
+
+    }
+
+    .menu-button {
+        display: flex;
+        margin-left: 0px;
+        padding: 1.5%;
+        border-style: none;
+        width: 770px;
+        height: 68px;
+        margin-top: 5%;
+        background-color: rgb(87, 98, 136);
+        border-radius: 0%;
+    }
+
+    button-1 {
+        height: 50px;
+        width: 350px;
+        font-family: 'Poppins';
+
+        border-radius: 5px;
+        border-color: dimgray;
+        font-size: 16px;
+        margin-block: 8px;
+        margin-left: 0px;
+
+    }
+
+    .button-3 {
+        height: 50px;
+        width: 300px;
+        font-family: 'Poppins';
+
+        border-radius: 5px;
+        border-color: dimgray;
+        font-size: 16px;
+        margin-block: 8px;
+        margin-left: 0px;
+
+    }
+
+    .Game-Fixture {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0px;
+        padding: 50px;
+    }
+
+    .button-for-tablet {
+        display: block;
+        height: 50px;
+        width: 180px;
+        font-family: 'Poppins';
+        border-radius: 5px;
+        border-color: dimgray;
+        font-size: 16px;
+        margin-block: 8px;
+        margin-left: 300px;
+        color: rgb(245, 241, 241);
+        background-color: rgb(179, 54, 54)
+    }
+
+    footer {
+        background-color: rgb(87, 98, 136);
+        padding: 5rem;
+        text-align: center;
+
+        font-family: 'Poppins';
+        margin-left: 0px;
+        width: 630px;
+        margin-top: 5%;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+}

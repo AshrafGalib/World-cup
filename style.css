@@ -174,22 +174,27 @@ nav ul li a {
 
 }
 
+.button-for-tablet {
+    display: none;
+}
+
+
+
 /* ----------------Media Query------------------------------------ */
+/* ---------------Mobile Devices------------------------------------ */
+
+
+
+
 @media only screen and (max-width: 688px) {
     .banner {
         background-color: rgb(87, 98, 136);
         width: 100%;
         display: block;
-        /* background-color: rgb(87, 98, 136); */
-        border-radius: 20px;
-        /* align-items: center; */
-        /* justify-content: center; */
-        /* width: 1359px; */
-        /* height: 474px; */
-        /* margin-top: 50px; */
-        /* margin-right: 0px; */
+
+
         margin-left: 0px;
-        height: 1016px;
+        height: 966.5px;
 
     }
 
@@ -203,9 +208,7 @@ nav ul li a {
         font-family: 'Poppins';
         font-size: 42px;
         line-height: 73PX;
-        /* margin-block: -50px; */
-        /* align-items: center; */
-        /* justify-content: center; */
+
         margin-left: 10px;
     }
 
@@ -220,10 +223,9 @@ nav ul li a {
     .menu-button {
         border-radius: 10px;
         margin-left: 0px;
-        width: 370px;
+        width: 367px;
         height: 200px;
-        /* justify-content: center;
-        align-items: center; */
+
 
     }
 
@@ -268,7 +270,7 @@ nav ul li a {
 
     .Menu {
         display: block;
-        /* gap: 10rem; */
+
 
     }
 
@@ -277,7 +279,7 @@ nav ul li a {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
-        width: 385px;
+        width: 381px;
         margin-left: 0px;
 
 
@@ -314,7 +316,151 @@ nav ul li a {
         text-align: justify;
     }
 
-    /* .Social-links ul li {
-       
-    } */
+
+}
+
+
+/* ----------------Media Query------------------------------------ */
+/* --------------Tablet Devices------------------------------------ */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    .banner {
+        background-color: rgb(87, 98, 136);
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+
+    .neymar {
+        margin-left: 50px;
+        width: 100%;
+    }
+
+    .heading {
+        font-family: 'Poppins';
+        font-size: 30px;
+        line-height: 50PX;
+
+        margin-left: 10px;
+    }
+
+    .heading-details {
+        margin-left: 10px;
+        font-size: 20px;
+        padding: 2px;
+    }
+
+    .watch-live {
+        margin-left: 10px;
+    }
+
+    .menu-button {
+        margin-left: 0px;
+        padding: 1.5%;
+        border-style: none;
+        width: 189px;
+        height: 200px;
+        margin-top: 5%;
+        background-color: rgb(87, 98, 136);
+        border-radius: 5%;
+
+    }
+
+    .Blog-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 385px;
+        margin-left: 0px;
+
+
+    }
+
+    .Menu {
+        display: block;
+    }
+
+    .menu-button {
+        display: flex;
+        margin-left: 0px;
+        padding: 1.5%;
+        border-style: none;
+        width: 770px;
+        height: 68px;
+        margin-top: 5%;
+        background-color: rgb(87, 98, 136);
+        border-radius: 0%;
+    }
+
+
+
+    .button-1 {
+        height: 50px;
+        width: 300px;
+        font-family: 'Poppins';
+
+        border-radius: 5px;
+        border-color: dimgray;
+        font-size: 16px;
+        margin-block: 8px;
+        margin-left: 0px;
+
+    }
+
+    .button-3 {
+        height: 50px;
+        width: 300px;
+        font-family: 'Poppins';
+
+        border-radius: 5px;
+        border-color: dimgray;
+        font-size: 16px;
+        margin-block: 8px;
+        margin-left: 0px;
+
+    }
+
+    .Contents {
+        box-shadow: 10px;
+        border-radius: 12px;
+        background-color: #dadee2;
+        padding: 35px
+    }
+
+    .button-for-tablet {
+        display: block;
+        height: 50px;
+        width: 180px;
+        font-family: 'Poppins';
+        border-radius: 5px;
+        border-color: dimgray;
+        font-size: 16px;
+        margin-block: 8px;
+        margin-left: 300px;
+        color: rgb(245, 241, 241);
+        background-color: rgb(179, 54, 54)
+    }
+
+    footer {
+        background-color: rgb(87, 98, 136);
+        padding: 5rem;
+        text-align: center;
+
+        font-family: 'Poppins';
+        margin-left: 0px;
+        width: 630px;
+        margin-top: 5%;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
 }
